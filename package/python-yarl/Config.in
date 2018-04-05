@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_YARL
+	bool "python-yarl"
+	select BR2_PACKAGE_PYTHON_MULTIDICT # runtime
+	select BR2_PACKAGE_PYTHON_IDNA # runtime
+	help
+	  Yet another URL library.
+
+	  https://github.com/aio-libs/yarl/

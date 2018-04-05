@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_UA_PARSER
+	bool "python-ua-parser"
+        select BR2_PACKAGE_HOST_PYTHON_PYYAML
+	help
+	  Python port of Browserscope's user agent parser.
+
+	  https://github.com/ua-parser/uap-python

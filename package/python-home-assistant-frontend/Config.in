@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_HOME_ASSISTANT_FRONTEND
+	bool "python-home-assistant-frontend"
+	select BR2_PACKAGE_PYTHON_USER_AGENTS # runtime
+	help
+	  The Home Assistant frontend.
+
+	  https://github.com/home-assistant/home-assistant-polymer

@@ -1,0 +1,6 @@
+config BR2_PACKAGE_PYTHON_WHEEL
+	bool "python-wheel"
+	help
+	  A built-package format for Python.
+
+	  https://github.com/pypa/wheel

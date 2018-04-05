@@ -1,0 +1,7 @@
+pip
+voluptuous
+typing
+aiohttp
+    yarl
+async_timeout
+astral

@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_IDNA_SSL
+	bool "python-idna-ssl"
+	select BR2_PACKAGE_PYTHON_IDNA # runtime
+	help
+	  Patch ssl.match_hostname for Unicode(idna) domains support.
+
+	  https://github.com/aio-libs/idna-ssl

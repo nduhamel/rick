@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LIBRESPOT
+    bool "Librespot"
+    depends on BR2_PACKAGE_HOST_RUSTC_ARCH_SUPPORTS
+    select BR2_PACKAGE_HOST_CARGO

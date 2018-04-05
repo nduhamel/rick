@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_NETDISCO
+	bool "python-netdisco"
+	select BR2_PACKAGE_PYTHON_REQUESTS # runtime
+	select BR2_PACKAGE_PYTHON_ZEROCONF # runtime
+	help
+	  Discover devices on your local network.
+
+	  https://github.com/home-assistant/netdisco

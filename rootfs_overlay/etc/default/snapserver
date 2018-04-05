@@ -1,0 +1,3 @@
+START_SNAPSERVER=true
+USER_OPTS="--user snapserver:snapserver"
+SNAPSERVER_OPTS="-s 'spotify:///librespot?name=Spotify&username=nduhamel24&password=droopy]&devicename=Snapcast'"

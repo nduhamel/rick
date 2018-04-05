@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_ASTRAL
+	bool "python-astral"
+	select BR2_PACKAGE_PYTHON_PYTZ # runtime
+	select BR2_PACKAGE_PYTHON_REQUESTS # runtime
+	help
+	  Calculations for the position of the sun and moon.
+
+	  https://github.com/sffjunkie/astral
